@@ -19,11 +19,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class MailService {
 
-	private static final String HOST = "smtp.gmail.com";
+	private static final String HOST = "";
 	private static final String GMAIL_PASSWORD = "";
 	private static final String GMAIL_USER = "";
 
-	private static final String TO = "anselmo.sr@gmail.com";
+	private static final String TO = "";
 	private static final String SUBJECT = "Email de teste";
 	private static final String TEXT = "Dear {}\r\n" + "\r\n"
 			+ "Thank you for contacting us for your business improvement needs.\r\n" + "Please see proposal #1 attached.\r\n"
